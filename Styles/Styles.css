@@ -1,0 +1,83 @@
+:root {
+    --div-top: 100px;
+}
+
+body {
+    background-color: #ef9de8;
+    font-family: "Merriweather", serif;
+}
+
+main {
+    display: grid;
+
+}
+
+footer {
+    background-color: #ffd7f9;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: #ffffff;
+
+}
+
+
+
+.Centralized {
+    display: grid;
+    justify-items: center;
+}
+
+li {
+    display: inline-block;
+}
+
+
+.NoMargin {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.HeaderDiv{
+    position: relative;
+    display: grid;
+}
+#heading {
+    font-family: "Sacramento", cursive;
+    font-size: 5rem;
+    color: #000000;
+    justify-self: center;
+    position: absolute;
+    margin-top:  calc(var(--div-top)/3);;
+}
+#HeadingP{
+    color: #000000;
+
+    position: absolute;  justify-self: center;
+    margin-top:  calc(var(--div-top)/2);;
+
+}
+.Fit {
+    width: 100%;
+
+}
+
+#MyImage {
+    width: 25%;
+    display: block;
+    justify-self: center;
+}
